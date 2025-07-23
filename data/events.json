@@ -1,0 +1,124 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "126th Tontitown Grape Festival",
+      "date": "Aug 5–9, 2025",
+      "startDate": "2025-08-05",
+      "endDate": "2025-08-09",
+      "location": "Tontitown, AR",
+      "description": "Free admission carnival, grape stomp, arts & crafts fair, famous spaghetti dinners, live music, and Queen Concordia coronation.",
+      "url": "https://tontitowngrapefestival.com/",
+      "type": "festival",
+      "tags": ["family-friendly", "food", "music", "carnival"],
+      "featured": true,
+      "image": "assets/events/tontitown-grape.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Fort Smith International Film Festival",
+      "date": "Aug 7–9, 2025",
+      "startDate": "2025-08-07",
+      "endDate": "2025-08-09",
+      "location": "Fort Smith, AR",
+      "description": "160+ local & global films, red-carpet screenings, filmmaker Q&As, and MidAmerica Film Market at Fort Smith Convention Center.",
+      "url": "https://fortsmithfilm.com/",
+      "type": "film",
+      "tags": ["film", "arts", "culture"],
+      "featured": false,
+      "image": "assets/events/fort-smith-film.jpg"
+    },
+    {
+      "id": 3,
+      "title": "SOAR NWA Hot Air Balloon Festival",
+      "date": "Aug 15–16, 2025",
+      "startDate": "2025-08-15",
+      "endDate": "2025-08-16",
+      "location": "Bentonville, AR",
+      "description": "Evening balloon glows, tethered rides, circus performers, live music, food trucks, beer garden, kid zone & more at Benton County Fairgrounds.",
+      "url": "https://www.visitbentonville.com/event/soar-nwa-2025/8011/",
+      "type": "festival",
+      "tags": ["family-friendly", "outdoor", "unique"],
+      "featured": true,
+      "image": "assets/events/soar-balloons.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Mountains, Music & Motorcycles",
+      "date": "Aug 15–17, 2025",
+      "startDate": "2025-08-15",
+      "endDate": "2025-08-17",
+      "location": "Mountain View, AR",
+      "description": "21st-annual downtown motorcycle rally with live bands, stunt shows, poker run, vendors, car display, and Ozark mountain riding routes.",
+      "url": "https://mountainsmusicandmotorcycles.com/",
+      "type": "music",
+      "tags": ["motorcycles", "music", "outdoor"],
+      "featured": false,
+      "image": "assets/events/motorcycles.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Bluegrass & Fried Chicken Festival",
+      "date": "Aug 22–23, 2025",
+      "startDate": "2025-08-22",
+      "endDate": "2025-08-23",
+      "location": "Mountain View, AR",
+      "description": "Two-day bluegrass showcase at Ozark Folk Center State Park with all-you-can-eat fried chicken buffet and family-friendly fun.",
+      "url": "https://www.arkansasstateparks.com/events/bluegrass-fried-chicken-festival",
+      "type": "music",
+      "tags": ["music", "food", "family-friendly", "bluegrass"],
+      "featured": false,
+      "image": "assets/events/bluegrass.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Bentonville First Friday – Superhero City",
+      "date": "Sept 5, 2025",
+      "startDate": "2025-09-05",
+      "endDate": "2025-09-05",
+      "location": "Bentonville, AR",
+      "description": "Downtown Bentonville's monthly block party transforms the Square with themed vendors, live music, food trucks, and family activities.",
+      "url": "https://downtownbentonville.org/do/first-fridays-superhero-city",
+      "type": "community",
+      "tags": ["family-friendly", "monthly", "downtown"],
+      "featured": false,
+      "image": "assets/events/first-friday.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Boston Mountain Paw Paw Festival",
+      "date": "Sept 20, 2025",
+      "startDate": "2025-09-20",
+      "endDate": "2025-09-20",
+      "location": "Chester, AR",
+      "description": "Free-entry harvest celebration at Beard & Lady Inn with pawpaw desserts, live music by Dreadful Day, cornhole, pageant, and growing workshops.",
+      "url": "https://www.projectpawpaw.com/event-details-registration/2025-boston-mountain-paw-paw-festival",
+      "type": "festival",
+      "tags": ["food", "harvest", "unique", "free"],
+      "featured": false,
+      "image": "assets/events/pawpaw.jpg"
+    }
+  ],
+  "eventTypes": {
+    "festival": {
+      "name": "Festival",
+      "icon": "🎪",
+      "color": "#8cbf3f"
+    },
+    "music": {
+      "name": "Music",
+      "icon": "🎵",
+      "color": "#3498db"
+    },
+    "film": {
+      "name": "Film",
+      "icon": "🎬",
+      "color": "#e74c3c"
+    },
+    "community": {
+      "name": "Community",
+      "icon": "🤝",
+      "color": "#f39c12"
+    }
+  }
+}
