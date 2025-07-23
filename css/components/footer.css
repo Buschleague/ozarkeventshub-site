@@ -1,0 +1,54 @@
+/* Footer Component Styles */
+.site-footer {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  text-align: center;
+  padding: var(--spacing-xl) 0;
+  margin-top: var(--spacing-section);
+}
+
+.footer-text {
+  margin: 0;
+  opacity: 0.9;
+  font-size: 0.875rem;
+}
+
+/* Contact Section */
+.section-contact {
+  background-color: var(--color-light);
+  text-align: center;
+}
+
+.section-contact .section-text {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.125rem;
+  color: var(--color-text-light);
+}
+
+.email-link {
+  color: var(--color-accent);
+  font-weight: var(--font-weight-medium);
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: text-decoration-color var(--transition-fast);
+}
+
+.email-link:hover,
+.email-link:focus {
+  text-decoration-color: var(--color-accent);
+}
+
+/* About Section */
+.section-about {
+  background-color: var(--color-white);
+}
+
+.section-about .section-text {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: var(--color-text-light);
+}
