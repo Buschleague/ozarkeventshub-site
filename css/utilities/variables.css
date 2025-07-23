@@ -1,0 +1,55 @@
+/* CSS Variables for consistent theming */
+:root {
+  /* Colors */
+  --color-primary: #2c3e50;
+  --color-primary-dark: #1a252f;
+  --color-accent: #8cbf3f;
+  --color-accent-hover: #7aa835;
+  --color-light: #f5f5f5;
+  --color-white: #ffffff;
+  --color-text: #333333;
+  --color-text-light: #666666;
+  --color-shadow: rgba(0, 0, 0, 0.08);
+  --color-shadow-hover: rgba(0, 0, 0, 0.12);
+  --color-overlay: rgba(44, 62, 80, 0.6);
+
+  /* Typography */
+  --font-primary: 'Roboto', sans-serif;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-xxl: 3rem;
+  --spacing-section: 60px;
+
+  /* Layout */
+  --container-width: 1150px;
+  --container-padding: 5%;
+
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-medium: 0.3s ease;
+  --transition-slow: 0.5s ease;
+
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 4px var(--color-shadow);
+  --shadow-md: 0 2px 6px var(--color-shadow);
+  --shadow-lg: 0 4px 12px var(--color-shadow);
+  --shadow-hover: 0 4px 12px var(--color-shadow-hover);
+
+  /* Breakpoints (for reference in JS) */
+  --breakpoint-mobile: 600px;
+  --breakpoint-tablet: 768px;
+  --breakpoint-desktop: 1024px;
+}
