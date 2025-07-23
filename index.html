@@ -1,29 +1,109 @@
-<section id="events" class="section">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ozark Events Hub - Your gateway to festivals, music, food, and community gatherings in the Ozarks." />
+  <title>Ozark Events Hub</title>
+  <!-- Favicon -->
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Inline Styles for MVP (switch to external CSS later) -->
+  <style>
+    :root {
+      --primary: #2c3e50;
+      --accent: #8cbf3f;
+      --light: #f5f5f5;
+    }
+    * {box-sizing: border-box;}
+    body {margin:0;font-family:'Roboto',sans-serif;background:var(--light);color:#333;line-height:1.6;}
+    header {background:var(--primary);color:#fff;}
+    header .container {display:flex;align-items:center;justify-content:space-between;padding:1rem 0;}
+    nav ul {list-style:none;margin:0;padding:0;display:flex;gap:1.5rem;}
+    nav a {color:#fff;text-decoration:none;font-weight:700;transition:opacity .2s;}
+    nav a:hover {opacity:.8;}
+
+    /* Updated hero with local image */
+    .hero {background:#2c3e50 url('assets/hero.jpg') center/cover no-repeat;position:relative;color:#fff;text-align:center;padding:120px 0;}
+    .hero::after {content:"";position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(44,62,80,.6);}
+    .hero .container {position:relative;z-index:2;}
+    .btn-primary {background:var(--accent);color:#fff;padding:.75rem 1.5rem;border:none;border-radius:4px;text-decoration:none;font-weight:700;display:inline-block;margin-top:1rem;}
+
+    .section {padding:60px 0;}
+    .container {width:90%;max-width:1150px;margin:auto;}
+
+    .event-grid {display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.5rem;}
+    .event-card {background:#fff;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,.08);padding:1.5rem;display:flex;flex-direction:column;justify-content:space-between;}
+    .event-card h3 {margin-top:0;color:var(--primary);font-size:1.25rem;}
+    .event-card time {font-weight:700;color:var(--accent);}
+    .event-card p {flex:1 1 auto;margin-bottom:1rem;}
+
+    footer {background:var(--primary);color:#fff;text-align:center;padding:1rem 0;}
+
+    @media(max-width:600px){nav ul{flex-direction:column;align-items:center;}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Ozark Events Hub</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Discover the Heart of the Ozarks</h2>
+      <p>Connect with authentic festivals, music, food, and community gatherings across Northwest Arkansas.</p>
+      <a href="#events" class="btn-primary">See Upcoming Events</a>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Ozark Events Hub</h2>
+      <p>We curate and promote cultural happenings that celebrate the spirit of the Ozarks— from small-town festivals and bluegrass jams to film showcases and balloon glows. Our mission is simple: bring people together and spotlight the makers, musicians, and storytellers that make our hills vibrant.</p>
+    </div>
+  </section>
+
+  <section id="events" class="section">
     <div class="container">
       <h2>Upcoming Events – Late Summer &amp; Early Fall 2025</h2>
       <div class="event-grid">
-        <!-- 126th Tontitown Grape Festival -->
+        <!-- Boston Mountain Paw Paw Festival -->
         <div class="event-card">
-          <h3>126th Tontitown Grape Festival</h3>
-          <time>Aug 5–9, 2025 · Tontitown, AR</time>
-          <p>Free admission carnival, grape stomp, arts &amp; crafts fair, famous spaghetti dinners, live music, and Queen Concordia coronation.</p>
-          <a href="https://tontitowngrapefestival.com/" target="_blank" rel="noopener" class="btn-primary">Event Site</a>
+          <h3>Boston Mountain Paw Paw Festival</h3>
+          <time>Sept 20, 2025 · Chester, AR</time>
+          <p>Free-entry harvest celebration at Beard &amp; Lady Inn with pawpaw desserts, live music by Dreadful Day, cornhole, pageant, and growing workshops.</p>
+          <a href="https://www.projectpawpaw.com/event-details-registration/2025-boston-mountain-paw-paw-festival" target="_blank" rel="noopener" class="btn-primary">Event Site</a>
         </div>
 
-        <!-- Fort Smith International Film Festival -->
-        <div class="event-card">
-          <h3>Fort Smith International Film Festival</h3>
-          <time>Aug 7–9, 2025 · Fort Smith, AR</time>
-          <p>160+ local &amp; global films, red-carpet screenings, filmmaker Q&amp;As, and MidAmerica Film Market at Fort Smith Convention Center.</p>
-          <a href="https://fortsmithfilm.com/" target="_blank" rel="noopener" class="btn-primary">Event Site</a>
-        </div>
-
-        <!-- SOAR NWA Hot Air Balloon Festival -->
+        <!-- SOAR NWA -->
         <div class="event-card">
           <h3>SOAR NWA Hot Air Balloon Festival</h3>
           <time>Aug 15–16, 2025 · Bentonville, AR</time>
           <p>Evening balloon glows, tethered rides, circus performers, live music, food trucks, beer garden, kid zone &amp; more at Benton County Fairgrounds.</p>
           <a href="https://www.visitbentonville.com/event/soar-nwa-2025/8011/" target="_blank" rel="noopener" class="btn-primary">Event Site</a>
+        </div>
+
+        <!-- Tontitown Grape Festival -->
+        <div class="event-card">
+          <h3>126th Tontitown Grape Festival</h3>
+          <time>Aug 5–9, 2025 · Tontitown, AR</time>
+          <p>Free admission carnival, grape stomp, arts &amp; crafts fair, famous spaghetti dinners, live music, and Queen Concordia coronation.</p>
+          <a href="https://tontitowngrapefestival.com/" target="_blank" rel="noopener" class="btn-primary">Event Site</a>
         </div>
 
         <!-- Mountains, Music & Motorcycles -->
@@ -32,6 +112,14 @@
           <time>Aug 15–17, 2025 · Mountain View, AR</time>
           <p>21st-annual downtown motorcycle rally with live bands, stunt shows, poker run, vendors, car display, and Ozark mountain riding routes.</p>
           <a href="https://mountainsmusicandmotorcycles.com/" target="_blank" rel="noopener" class="btn-primary">Event Site</a>
+        </div>
+
+        <!-- Fort Smith International Film Festival -->
+        <div class="event-card">
+          <h3>Fort Smith International Film Festival</h3>
+          <time>Aug 7–9, 2025 · Fort Smith, AR</time>
+          <p>160+ local &amp; global films, red-carpet screenings, filmmaker Q&amp;As, and MidAmerica Film Market at Fort Smith Convention Center.</p>
+          <a href="https://fortsmithfilm.com/" target="_blank" rel="noopener" class="btn-primary">Event Site</a>
         </div>
 
         <!-- Bluegrass & Fried Chicken Festival -->
@@ -48,14 +136,6 @@
           <time>Sept 5, 2025 · Bentonville, AR</time>
           <p>Downtown Bentonville’s monthly block party transforms the Square with themed vendors, live music, food trucks, and family activities.</p>
           <a href="https://downtownbentonville.org/do/first-fridays-superhero-city" target="_blank" rel="noopener" class="btn-primary">Event Site</a>
-        </div>
-
-        <!-- Boston Mountain Paw Paw Festival -->
-        <div class="event-card">
-          <h3>Boston Mountain Paw Paw Festival</h3>
-          <time>Sept 20, 2025 · Chester, AR</time>
-          <p>Free-entry harvest celebration at Beard &amp; Lady Inn with pawpaw desserts, live music by Dreadful Day, cornhole, pageant, and growing workshops.</p>
-          <a href="https://www.projectpawpaw.com/event-details-registration/2025-boston-mountain-paw-paw-festival" target="_blank" rel="noopener" class="btn-primary">Event Site</a>
         </div>
       </div>
     </div>
