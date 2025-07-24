@@ -1,4 +1,4 @@
-# Ozark Events Hub - Modularized Version
+# Ozark Events Hub
 
 ## Project Structure
 
