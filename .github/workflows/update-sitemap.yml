@@ -1,0 +1,32 @@
+name: Update Sitemap Date
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'index.html'
+      - 'js/**'
+      - 'css/**'
+      - 'data/**'
+
+jobs:
+  update-sitemap:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Update sitemap.xml with current date
+      run: |
+        DATE=$(date +%Y-%m-%d)
+        sed -i "s/<lastmod>.*<\/lastmod>/<lastmod>$DATE<\/lastmod>/g" sitemap.xml
+
+    - name: Commit and push if changed
+      run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+        git add sitemap.xml
+        git diff --staged --quiet || git commit -m "Auto-update sitemap date"
+        git push || echo "No changes to push"
