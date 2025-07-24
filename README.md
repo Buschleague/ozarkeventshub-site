@@ -1,4 +1,4 @@
-# Ozark Events Hub
+# Ozark Events Hub - Modularized Version
 
 ## Project Structure
 
@@ -24,6 +24,8 @@ ozarkeventshub/
 │   └── events.json         # Event data (for future API integration)
 └── assets/                 # Static assets
     ├── images/             # Image files
+    │   ├── hero.jpg        # Hero background image
+    │   └── events/         # Event images
     ├── icons/              # Icon files
     └── favicon.ico         # Favicon
 ```
