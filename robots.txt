@@ -1,0 +1,39 @@
+# Robots.txt for Ozark Events Hub
+# https://ozarkeventshub.com
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+# AI crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Sitemap location
+Sitemap: https://ozarkeventshub.com/sitemap.xml
+
+# Disallow access to specific directories (if any)
+# User-agent: *
+# Disallow: /admin/
+# Disallow: /private/
