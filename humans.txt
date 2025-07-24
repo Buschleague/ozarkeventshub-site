@@ -1,0 +1,16 @@
+/* TEAM */
+Name: Ozark Events Hub Team
+Site: info@ozarkeventshub.com
+Location: Northwest Arkansas, USA
+
+/* THANKS */
+Communities: All the vibrant communities across the Ozarks
+Event Organizers: For creating amazing experiences
+Visitors: For supporting local culture
+
+/* SITE */
+Last update: 2025/01/24
+Language: English
+Standards: HTML5, CSS3, JavaScript ES6
+Components: Modular CSS, Vanilla JavaScript
+Software: GitHub Pages
