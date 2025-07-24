@@ -1,7 +1,7 @@
 /* Hero Component Styles */
 .hero {
   position: relative;
-  background: url('../../assets/images/hero.jpg')  center/cover no-repeat;
+  background: url('../../assets/images/hero.jpg') center/cover no-repeat;
   color: var(--color-white);
   text-align: center;
   padding: 160px 0 120px;
@@ -29,6 +29,8 @@
   font-size: 3rem;
   margin-bottom: var(--spacing-lg);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  font-weight: var(--font-weight-bold);
+  line-height: 1.2;
 }
 
 .hero-subtitle {
