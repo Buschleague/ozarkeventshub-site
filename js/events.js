@@ -107,19 +107,23 @@ const Events = (() => {
 
   // Create Event Card
   const createEventCard = (event, index) => {
-    const card = document.createElement('div');
+    const card = document.createElement('article');
     card.className = 'event-card';
     card.style.animationDelay = `${index * 0.1}s`;
+    card.setAttribute('role', 'listitem');
+    card.setAttribute('itemscope', '');
+    card.setAttribute('itemtype', 'https://schema.org/Event');
 
     card.innerHTML = `
-      <h3>${escapeHtml(event.title)}</h3>
-      <time class="event-date">${escapeHtml(event.date)} · ${escapeHtml(event.location)}</time>
-      <p>${escapeHtml(event.description)}</p>
+      <h3 itemprop="name">${escapeHtml(event.title)}</h3>
+      <time class="event-date" itemprop="startDate" datetime="${event.startDate || ''}">${escapeHtml(event.date)} · <span itemprop="location">${escapeHtml(event.location)}</span></time>
+      <p itemprop="description">${escapeHtml(event.description)}</p>
       <a href="${escapeHtml(event.url)}" 
          target="_blank" 
-         rel="noopener" 
+         rel="noopener noreferrer" 
          class="btn btn-primary"
-         aria-label="Visit ${escapeHtml(event.title)} website">
+         itemprop="url"
+         aria-label="Visit ${escapeHtml(event.title)} website (opens in new tab)">
         Event Site
       </a>
     `;
