@@ -3,11 +3,89 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Ozark Events Hub - Your gateway to festivals, music, food, and community gatherings in the Ozarks.">
-  <title>Ozark Events Hub</title>
+  <!-- Primary Meta Tags -->
+  <title>Ozark Events Hub - Festivals, Music & Community Events in Northwest Arkansas</title>
+  <meta name="title" content="Ozark Events Hub - Festivals, Music & Community Events in Northwest Arkansas">
+  <meta name="description" content="Discover authentic festivals, music, food, and community gatherings across the Ozarks. Find upcoming events including Tontitown Grape Festival, bluegrass concerts, hot air balloon festivals, and more in Northwest Arkansas.">
+  <meta name="keywords" content="Ozark events, Arkansas festivals, Northwest Arkansas events, Bentonville events, Tontitown Grape Festival, bluegrass music Arkansas, community events, food festivals, hot air balloon festival">
+  <meta name="author" content="Ozark Events Hub">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
 
-  <!-- Favicon -->
-  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ozarkeventshub.com/">
+  <meta property="og:title" content="Ozark Events Hub - Festivals, Music & Community Events">
+  <meta property="og:description" content="Your gateway to authentic festivals, music, food, and community gatherings across Northwest Arkansas.">
+  <meta property="og:image" content="https://ozarkeventshub.com/assets/images/og-image.jpg">
+  <meta property="og:site_name" content="Ozark Events Hub">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://ozarkeventshub.com/">
+  <meta property="twitter:title" content="Ozark Events Hub - Festivals, Music & Community Events">
+  <meta property="twitter:description" content="Your gateway to authentic festivals, music, food, and community gatherings across Northwest Arkansas.">
+  <meta property="twitter:image" content="https://ozarkeventshub.com/assets/images/og-image.jpg">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://ozarkeventshub.com/">
+
+  <!-- Favicon and App Icons -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json">
+
+  <!-- Structured Data for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Ozark Events Hub",
+    "url": "https://ozarkeventshub.com",
+    "logo": "https://ozarkeventshub.com/assets/images/logo.png",
+    "description": "Curating and promoting cultural happenings that celebrate the spirit of the Ozarks",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "info@ozarkeventshub.com",
+      "contactType": "customer service"
+    },
+    "areaServed": {
+      "@type": "State",
+      "name": "Arkansas",
+      "containsPlace": ["Northwest Arkansas", "Bentonville", "Fort Smith", "Mountain View", "Tontitown"]
+    }
+  }
+  </script>
+
+  <!-- Event Structured Data (sample for first event) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "126th Tontitown Grape Festival",
+    "startDate": "2025-08-05",
+    "endDate": "2025-08-09",
+    "location": {
+      "@type": "Place",
+      "name": "Tontitown, AR",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Tontitown",
+        "addressRegion": "AR",
+        "addressCountry": "US"
+      }
+    },
+    "description": "Free admission carnival, grape stomp, arts & crafts fair, famous spaghetti dinners, live music, and Queen Concordia coronation.",
+    "url": "https://tontitowngrapefestival.com/",
+    "organizer": {
+      "@type": "Organization",
+      "name": "Tontitown Grape Festival Committee"
+    }
+  }
+  </script>
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -52,44 +130,46 @@
   </header>
 
   <!-- Hero Section -->
-  <section id="home" class="hero">
+  <section id="home" class="hero" role="banner">
     <div class="hero-overlay"></div>
     <div class="container">
       <div class="hero-content">
-        <h2 class="hero-title">Discover the Heart of the Ozarks</h2>
+        <h1 class="hero-title">Discover the Heart of the Ozarks</h1>
         <p class="hero-subtitle">Connect with authentic festivals, music, food, and community gatherings across Northwest Arkansas.</p>
         <a href="#events" class="btn btn-primary">See Upcoming Events</a>
       </div>
     </div>
   </section>
 
-  <!-- About Section -->
-  <section id="about" class="section section-about">
-    <div class="container">
-      <h2 class="section-title">About Ozark Events Hub</h2>
-      <p class="section-text">We curate and promote cultural happenings that celebrate the spirit of the Ozarks— from small-town festivals and bluegrass jams to film showcases and balloon glows. Our mission is simple: bring people together and spotlight the makers, musicians, and storytellers that make our hills vibrant.</p>
-    </div>
-  </section>
-
-  <!-- Events Section -->
-  <section id="events" class="section section-events">
-    <div class="container">
-      <h2 class="section-title">Upcoming Events – Late Summer & Early Fall 2025</h2>
-
-      <!-- Events will be dynamically loaded here -->
-      <div class="event-grid" id="event-grid">
-        <div class="loading">Loading events...</div>
+  <main role="main">
+    <!-- About Section -->
+    <section id="about" class="section section-about" aria-labelledby="about-title">
+      <div class="container">
+        <h2 id="about-title" class="section-title">About Ozark Events Hub</h2>
+        <p class="section-text">We curate and promote cultural happenings that celebrate the spirit of the Ozarks— from small-town festivals and bluegrass jams to film showcases and balloon glows. Our mission is simple: bring people together and spotlight the makers, musicians, and storytellers that make our hills vibrant.</p>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="section section-contact">
-    <div class="container">
-      <h2 class="section-title">Get In Touch</h2>
-      <p class="section-text">Email us at <a href="mailto:info@ozarkeventshub.com" class="email-link">info@ozarkeventshub.com</a> or follow our social channels for the latest updates.</p>
-    </div>
-  </section>
+    <!-- Events Section -->
+    <section id="events" class="section section-events" aria-labelledby="events-title">
+      <div class="container">
+        <h2 id="events-title" class="section-title">Upcoming Events – Late Summer & Early Fall 2025</h2>
+
+        <!-- Events will be dynamically loaded here -->
+        <div class="event-grid" id="event-grid" role="list">
+          <div class="loading">Loading events...</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-contact" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 id="contact-title" class="section-title">Get In Touch</h2>
+        <p class="section-text">Email us at <a href="mailto:info@ozarkeventshub.com" class="email-link">info@ozarkeventshub.com</a> or follow our social channels for the latest updates.</p>
+      </div>
+    </section>
+  </main>
 
   <!-- Footer -->
   <footer class="site-footer">
