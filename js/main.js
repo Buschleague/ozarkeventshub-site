@@ -115,7 +115,7 @@ const App = (() => {
     const preloadLink = document.createElement('link');
     preloadLink.rel = 'preload';
     preloadLink.as = 'image';
-    preloadLink.href = 'assets/hero.jpg';
+    preloadLink.href = 'assets/images/hero.jpg';
     document.head.appendChild(preloadLink);
 
     // Prefetch event sites on hover
