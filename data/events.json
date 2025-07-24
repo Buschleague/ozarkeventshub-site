@@ -12,7 +12,7 @@
       "type": "festival",
       "tags": ["family-friendly", "food", "music", "carnival"],
       "featured": true,
-      "image": "assets/events/tontitown-grape.jpg"
+      "image": "assets/images/events/tontitown-grape.jpg"
     },
     {
       "id": 2,
@@ -26,7 +26,7 @@
       "type": "film",
       "tags": ["film", "arts", "culture"],
       "featured": false,
-      "image": "assets/events/fort-smith-film.jpg"
+      "image": "assets/images/events/fort-smith-film.jpg"
     },
     {
       "id": 3,
@@ -40,7 +40,7 @@
       "type": "festival",
       "tags": ["family-friendly", "outdoor", "unique"],
       "featured": true,
-      "image": "assets/events/soar-balloons.jpg"
+      "image": "assets/images/events/soar-balloons.jpg"
     },
     {
       "id": 4,
@@ -54,7 +54,7 @@
       "type": "music",
       "tags": ["motorcycles", "music", "outdoor"],
       "featured": false,
-      "image": "assets/events/motorcycles.jpg"
+      "image": "assets/images/events/motorcycles.jpg"
     },
     {
       "id": 5,
@@ -68,7 +68,7 @@
       "type": "music",
       "tags": ["music", "food", "family-friendly", "bluegrass"],
       "featured": false,
-      "image": "assets/events/bluegrass.jpg"
+      "image": "assets/images/events/bluegrass.jpg"
     },
     {
       "id": 6,
@@ -82,7 +82,7 @@
       "type": "community",
       "tags": ["family-friendly", "monthly", "downtown"],
       "featured": false,
-      "image": "assets/events/first-friday.jpg"
+      "image": "assets/images/events/first-friday.jpg"
     },
     {
       "id": 7,
@@ -96,7 +96,7 @@
       "type": "festival",
       "tags": ["food", "harvest", "unique", "free"],
       "featured": false,
-      "image": "assets/events/pawpaw.jpg"
+      "image": "assets/images/events/pawpaw.jpg"
     }
   ],
   "eventTypes": {
