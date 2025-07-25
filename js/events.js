@@ -2,7 +2,7 @@
 const Events = (() => {
   'use strict';
 
-  // Event data
+  // Event data (in a real app, this would come from an API or external JSON file)
   const eventData = [
     {
       id: 1,
