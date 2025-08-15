@@ -64,7 +64,7 @@ const Events = (() => {
       date: "Sept 20, 2025",
       location: "Chester, AR",
       description: "Free-entry harvest celebration at Beard & Lady Inn with pawpaw desserts, live music by Dreadful Day, cornhole, pageant, and growing workshops.",
-      url: "https://www.projectpawpaw.com/event-details-registration/2025-boston-mountain-paw-paw-festival",
+      url: "https://pawpawfestar.org/",
       type: "festival"
     }
   ];
