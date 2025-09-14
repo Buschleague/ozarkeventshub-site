@@ -76,12 +76,12 @@ Allow: /
 
 User-agent: CCBot
 Disallow: /data/
-Disallow: /scss/
+Disallow: /scss/ https://pawpawfestar.org
 Disallow: /components/
 Allow: /
 
 # Sitemap location
-Sitemap: https://pawpawfestar.org/sitemap.xml
+Sitemap: https://ozarkeventshub.com/sitemap.xml
 
 # Crawl-delay for all bots
 Crawl-delay: 1
