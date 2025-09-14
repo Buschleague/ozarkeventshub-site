@@ -6,66 +6,66 @@ const Events = (() => {
   const eventData = [
     {
       id: 1,
-      title: "126th Tontitown Grape Festival",
-      date: "Aug 5–9, 2025",
-      location: "Tontitown, AR",
-      description: "Free admission carnival, grape stomp, arts & crafts fair, famous spaghetti dinners, live music, and Queen Concordia coronation.",
-      url: "https://tontitowngrapefestival.com/",
-      type: "festival"
-    },
-    {
-      id: 2,
-      title: "Fort Smith International Film Festival",
-      date: "Aug 7–9, 2025",
-      location: "Fort Smith, AR",
-      description: "160+ local & global films, red-carpet screenings, filmmaker Q&As, and MidAmerica Film Market at Fort Smith Convention Center.",
-      url: "https://fortsmithfilm.com/",
-      type: "film"
-    },
-    {
-      id: 3,
-      title: "SOAR NWA Hot Air Balloon Festival",
-      date: "Aug 15–16, 2025",
-      location: "Bentonville, AR",
-      description: "Evening balloon glows, tethered rides, circus performers, live music, food trucks, beer garden, kid zone & more at Benton County Fairgrounds.",
-      url: "https://www.visitbentonville.com/event/soar-nwa-2025/8011/",
-      type: "festival"
-    },
-    {
-      id: 4,
-      title: "Mountains, Music & Motorcycles",
-      date: "Aug 15–17, 2025",
-      location: "Mountain View, AR",
-      description: "21st-annual downtown motorcycle rally with live bands, stunt shows, poker run, vendors, car display, and Ozark mountain riding routes.",
-      url: "https://mountainsmusicandmotorcycles.com/",
-      type: "music"
-    },
-    {
-      id: 5,
-      title: "Bluegrass & Fried Chicken Festival",
-      date: "Aug 22–23, 2025",
-      location: "Mountain View, AR",
-      description: "Two-day bluegrass showcase at Ozark Folk Center State Park with all-you-can-eat fried chicken buffet and family-friendly fun.",
-      url: "https://www.arkansasstateparks.com/events/bluegrass-fried-chicken-festival",
-      type: "music"
-    },
-    {
-      id: 6,
-      title: "Bentonville First Friday – Superhero City",
-      date: "Sept 5, 2025",
-      location: "Bentonville, AR",
-      description: "Downtown Bentonville's monthly block party transforms the Square with themed vendors, live music, food trucks, and family activities.",
-      url: "https://downtownbentonville.org/do/first-fridays-superhero-city",
-      type: "community"
-    },
-    {
-      id: 7,
       title: "Boston Mountain Paw Paw Festival",
       date: "Sept 20, 2025",
       location: "Chester, AR",
       description: "Free-entry harvest celebration at Beard & Lady Inn with pawpaw desserts, live music by Dreadful Day, cornhole, pageant, and growing workshops.",
-      url: "https://pawpawfestar.org/",
+      url: "https://www.pawpawfestar.org",
       type: "festival"
+    },
+    {
+      id: 2,
+      title: "Bikes Blues & BBQ",
+      date: "Oct 1–4, 2025",
+      location: "Rogers, AR",
+      description: "The world's largest charity motorcycle rally featuring scenic rides, live music, BBQ competition, vendors, and family-friendly activities throughout Northwest Arkansas.",
+      url: "https://bikesbluesandbbq.org/",
+      type: "festival"
+    },
+    {
+      id: 3,
+      title: "Arkansas Apple Festival",
+      date: "Oct 3–5, 2025",
+      location: "Lincoln, AR",
+      description: "Celebrate the apple harvest with arts & crafts, live bluegrass music, parade at 10am Saturday, apple cider, food vendors, and family entertainment on the town square.",
+      url: "https://www.arkansasapplefestival.com/",
+      type: "festival"
+    },
+    {
+      id: 4,
+      title: "War Eagle Fair",
+      date: "Oct 16–19, 2025",
+      location: "Hindsville, AR",
+      description: "Over 250 booths of handcrafted arts & crafts along War Eagle Creek. Features pottery, jewelry, woodworking, live demonstrations, music, and fall foliage.",
+      url: "https://wareaglefair.com/",
+      type: "festival"
+    },
+    {
+      id: 5,
+      title: "Ozark Moonshine & Music Festival",
+      date: "Nov 1, 2025",
+      location: "Clinton, AR",
+      description: "All-day bluegrass and country music headlined by 'The Voice' star Ruby Leigh, plus craft distillery tastings, Ozark history exhibits, and hands-on activities.",
+      url: "https://ozarkmoonshinefest.org/",
+      type: "music"
+    },
+    {
+      id: 6,
+      title: "Lights of the Ozarks",
+      date: "Nov 21, 2025 – Jan 1, 2026",
+      location: "Fayetteville, AR",
+      description: "Northwest Arkansas' most treasured holiday tradition transforms downtown square with millions of lights, parade Dec 4, live music, Santa visits, and festive activities.",
+      url: "https://www.experiencefayetteville.com/experience/lights-of-the-ozarks",
+      type: "holiday"
+    },
+    {
+      id: 7,
+      title: "Eureka Springs Christmas Festival",
+      date: "Dec 5–21, 2025",
+      location: "Eureka Springs, AR",
+      description: "Victorian Christmas celebration with Parade of Lights Dec 5, Living Windows, Tour of Homes, Santa in Basin Park, Jinglin' Jeep Parade, and holiday markets.",
+      url: "https://christmasineureka.com/",
+      type: "holiday"
     }
   ];
 
