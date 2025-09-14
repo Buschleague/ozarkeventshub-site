@@ -1,39 +1,87 @@
-# Robots.txt for Ozark Events Hub
-# https://ozarkeventshub.com
 
-# Allow all crawlers
+# Block URL parameters to prevent duplicate content
 User-agent: *
+Disallow: /*?fbclid=
+Disallow: /*?s=
+Disallow: /*?utm_
+Disallow: /*?gclid=
+Disallow: /*&fbclid=
+Disallow: /*&utm_
+Disallow: /*&gclid=
+Disallow: /data/
+Disallow: /scss/
+Disallow: /components/
 Allow: /
 
 # Specific rules for major search engines
 User-agent: Googlebot
+Disallow: /*?fbclid=
+Disallow: /*?s=
+Disallow: /*?utm_
+Disallow: /*?gclid=
+Disallow: /*&fbclid=
+Disallow: /*&utm_
+Disallow: /*&gclid=
+Disallow: /data/
+Disallow: /scss/
+Disallow: /components/
 Allow: /
 Crawl-delay: 0
 
 User-agent: Bingbot
+Disallow: /*?fbclid=
+Disallow: /*?s=
+Disallow: /*?utm_
+Disallow: /*?gclid=
+Disallow: /*&fbclid=
+Disallow: /*&utm_
+Disallow: /*&gclid=
+Disallow: /data/
+Disallow: /scss/
+Disallow: /components/
 Allow: /
 Crawl-delay: 0
 
+# Social media crawlers
+User-agent: facebookexternalhit
+Disallow: /data/
+Disallow: /scss/
+Disallow: /components/
+Allow: /
+
+User-agent: Twitterbot
+Disallow: /data/
+Disallow: /scss/
+Disallow: /components/
+Allow: /
+
+User-agent: LinkedInBot
+Disallow: /data/
+Disallow: /scss/
+Disallow: /components/
+Allow: /
+
 # AI crawlers
 User-agent: GPTBot
+Disallow: /data/
+Disallow: /scss/
+Disallow: /components/
 Allow: /
 
 User-agent: ChatGPT-User
+Disallow: /data/
+Disallow: /scss/
+Disallow: /components/
 Allow: /
 
 User-agent: CCBot
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: Claude-Web
+Disallow: /data/
+Disallow: /scss/
+Disallow: /components/
 Allow: /
 
 # Sitemap location
-Sitemap: https://ozarkeventshub.com/sitemap.xml
+Sitemap: https://pawpawfestar.org/sitemap.xml
 
-# Disallow access to specific directories (if any)
-# User-agent: *
-# Disallow: /admin/
-# Disallow: /private/
+# Crawl-delay for all bots
+Crawl-delay: 1
